@@ -237,10 +237,12 @@ h6 {
   .left-text,
   .second-button {
     text-align: center;
+    font-size: 30px;
   }
   .second-button {
     text-align: center;
     margin-left: 80px;
+    font-size: small;
   }
 }
 
