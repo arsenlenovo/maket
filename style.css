@@ -227,7 +227,7 @@ h6 {
 }
 @media (max-width: 600px) {
   .block-3 {
-    width: 100%;
+    width: 60%;
   }
   .block-holder {
     display: block;
