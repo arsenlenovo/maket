@@ -187,7 +187,7 @@ h6 {
   .images {
     display: block;
     margin-right: auto;
-    margin-left: auto;
+    margin-left: 30px;
     padding-right: 90px;
     width: 100%;
   }
