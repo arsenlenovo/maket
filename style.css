@@ -225,6 +225,7 @@ h6 {
   color: #fff;
   padding: 14px 18px;
 }
+/*-- я думаю здес закончил --*/
 @media (max-width: 600px) {
   .block-3 {
     width: 60%;
@@ -276,6 +277,17 @@ h6 {
   flex-wrap: wrap;
 }
 @media (max-width: 600px) {
+  .inside-the-menu {
+    padding: 0;
+  }
+  .dishes-title {
+     font-size: 30px;
+     padding-right: 38%;
+     margin-bottom: 30px;
+  }
+  .burgers-image {
+    font-size: small;
+  }
   .burgers {
     display: block;
   }
@@ -348,13 +360,21 @@ main {
 
 .little-div {
   background-color: #E5E5E5;
-  
+  max-width: 100%;
 }
 .inside-div {
   padding: 70px;
   text-align: center;
   width: 57%;
   margin-left: 20%;
+  
+}
+@media (max-width: 600px) {
+  .inside-div {
+    width: 100%;
+    padding-right: 250px;
+    margin-left: 0;
+  }
   
 }
 
