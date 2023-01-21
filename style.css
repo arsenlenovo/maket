@@ -322,7 +322,11 @@ main {
 }
 @media (max-width: 600px) {
   main {
-    width: 100%;
+    width: 63%;
+    padding-right: 0;
+    background-position: center;
+    background-size: cover;
+    height: 130vh;
   }
 }
 .inside-the-main {
@@ -367,7 +371,8 @@ main {
     display: block;
   }
   .cart {
-    margin-left: 60px;
+    margin-left: 0;
+    padding: 20px;
   }
   .cart-separate {
     display: none;
