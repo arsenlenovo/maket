@@ -159,7 +159,7 @@ h6 {
 .mediumseagreen-text {
   color: mediumseagreen;
 }
-
+/*-- здес тоже --*/
 .block-2 {
   display: flex;
   flex-wrap: wrap;
@@ -238,7 +238,7 @@ h6 {
 /*-- я думаю здес закончил --*/
 @media (max-width: 600px) {
   .block-3 {
-    width: 60%;
+    width: 62%;
     padding: 0;
   }
   .block-holder {
@@ -286,6 +286,9 @@ h6 {
   display: flex;
   flex-wrap: wrap;
 }
+.pizza-menu {
+  width: 100%;
+}
 @media (max-width: 600px) {
   .inside-the-menu {
     padding: 0;
@@ -298,11 +301,15 @@ h6 {
   .burgers-image {
     font-size: small;
   }
+  .pizza-menu {
+    width: 65%;
+  }
   .burgers {
     display: block;
   }
   .burger-item {
     margin-top: 60px;
+    width: 340px;
   }
   .dash {
     display: none;
