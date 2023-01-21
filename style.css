@@ -174,6 +174,7 @@ h6 {
 }
 .inside-the-block {
   margin-top: 10px;
+  display: flex;
 }
 .images {
   width: 450px;
@@ -196,10 +197,11 @@ h6 {
   }
   .imges-History {
     height: fit-content;
-    padding-right: 120px;
+    padding-right: 61px;
   }
   .inside-the-block {
     width: 100%;
+    display: block;
   }
   
 }
